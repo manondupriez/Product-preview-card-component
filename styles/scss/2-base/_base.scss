@@ -7,3 +7,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    @include bodyTypo;
+    background-color: $creamColor;
+}

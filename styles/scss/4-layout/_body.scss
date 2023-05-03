@@ -1,0 +1,37 @@
+.product {
+    background-color: #FFF;
+    border-radius: 10px;
+    &__category {
+        @include overlineTypo;
+        color: $aurometalSaurusColor;
+        text-transform: uppercase;
+    }
+    &__title {
+        @include displayTypo;
+        color: $gunmetalColor;
+    }
+    &__caption {
+        color: $aurometalSaurusColor;
+    }
+    &__price {
+        &--original {
+            color: $aurometalSaurusColor;
+            text-decoration: line-through;
+        }
+        &--sale {
+            @include displayTypo;
+            color: $deepAquamarineColor;
+        }
+    }
+    &__buy-button {
+        @include buttonTypo;
+        width: 295px;
+        height: 48px;
+        background-color: $deepAquamarineColor;
+        color: #FFF;
+        border-radius: 8px;
+        &:hover {
+            background-color: $deepAquamarineHoverColor;
+        }
+    }
+}
