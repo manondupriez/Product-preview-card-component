@@ -1,0 +1,14 @@
+.product {
+    &__buy-button {
+        @include buttonTypo;
+        width: 100%;
+        height: toRem(48);
+        background-color: $deepAquamarineColor;
+        color: #FFF;
+        border-radius: toRem(8);
+        &:hover {
+            background-color: $deepAquamarineHoverColor;
+            color: #FFF;
+        }
+    }
+}

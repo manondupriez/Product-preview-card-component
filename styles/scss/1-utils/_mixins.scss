@@ -4,31 +4,31 @@
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: toRem(32);
+    line-height: toRem(32);
 }
 
 @mixin bodyTypo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: toRem(14);
+    line-height: toRem(23);
 }
 
 @mixin buttonTypo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: toRem(14);
+    line-height: toRem(17);
 }
 
 @mixin overlineTypo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 5px;
+    font-size: toRem(12);
+    line-height: toRem(15);
+    letter-spacing: toRem(5);
 }

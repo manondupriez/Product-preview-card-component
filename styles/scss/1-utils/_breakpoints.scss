@@ -1,28 +1,28 @@
 @media screen and (min-width: 640px) {
     .product {
-        max-width: 600px;
-        height: 450px;
+        max-width: toRem(600);
+        height: toRem(450);
         display: flex;
         &-infos {
-            padding: 32px;
-            width: 300px;
+            padding: toRem(32);
+            width: toRem(300);
         }
         &__picture {
-            border-radius: 10px 0 0 10px;
-            width: 300px;
+            border-radius: toRem(10) 0 0 toRem(10);
+            width: toRem(300);
             height: 100%;
         }
         &__category {
-            margin-bottom: 20px !important;
+            margin-bottom: toRem(20) !important;
         }
         &__title {
-            margin-bottom: 24px !important;
+            margin-bottom: toRem(24) !important;
         }
         &__caption {
-            margin-bottom: 29px !important;
+            margin-bottom: toRem(29) !important;
         }
         &__price {
-            margin-bottom: 30px !important;
+            margin-bottom: toRem(30) !important;
         }
     }
 }
