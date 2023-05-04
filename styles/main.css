@@ -21,6 +21,9 @@ body {
   background-color: #FFF;
   border-radius: 10px;
 }
+.product__picture {
+  max-width: 100%;
+}
 .product__category {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -41,6 +44,9 @@ body {
 }
 .product__caption {
   color: hsl(228, 12%, 48%);
+}
+.product__price {
+  column-gap: 19px;
 }
 .product__price--original {
   color: hsl(228, 12%, 48%);
@@ -68,6 +74,7 @@ body {
 }
 .product__buy-button:hover {
   background-color: hsl(158, 42%, 18%);
+  color: #FFF;
 }
 
 /* 
