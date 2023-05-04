@@ -1,4 +1,28 @@
-/* 
-- Mobile: 375px
-- Desktop: 1440px
-*/
+@media screen and (min-width: 640px) {
+    .product {
+        max-width: 600px;
+        height: 450px;
+        display: flex;
+        &-infos {
+            padding: 32px;
+            width: 300px;
+        }
+        &__picture {
+            border-radius: 10px 0 0 10px;
+            width: 300px;
+            height: 100%;
+        }
+        &__category {
+            margin-bottom: 20px !important;
+        }
+        &__title {
+            margin-bottom: 24px !important;
+        }
+        &__caption {
+            margin-bottom: 29px !important;
+        }
+        &__price {
+            margin-bottom: 30px !important;
+        }
+    }
+}
