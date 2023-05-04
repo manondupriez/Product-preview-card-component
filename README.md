@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-solution-with-bootstrap-and-sass-mpn321Xx1_
+- Solution URL: "https://www.frontendmentor.io/solutions/product-preview-card-component-solution-with-bootstrap-and-sass-mpn321Xx1_"
 - Live Site URL: https://manondupriez.github.io/product-preview-card-component/
 
 ## My process
