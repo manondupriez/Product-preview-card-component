@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [The \<picture\> tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped me to load the mobile or the desktop image according to the screen width, which was not practical with the basic \<img\> tag.
+- [The \<picture\> tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped me to load either the mobile or the desktop image according to the screen width, which was not practical with the basic \<img\> tag.
 
 ## Author
 
